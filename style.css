@@ -1,0 +1,724 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100vw;
+    position: relative;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    font-size: 1.2vw;
+    width: 100%;
+    position: relative;
+}
+#nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.nav-left a{
+    display: inline-block;
+    padding-right: 25px;
+}
+#hero{
+    align-items: center;
+    width: 100%;
+   position: relative;
+    margin-top: 12vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#sustain{
+    width: 10vw;
+}
+#sustain p{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .7;
+    position: relative;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+#sustain #sustain-img{
+    position: relative;
+    height: 15vw;
+   
+    width: 100%;
+}
+#sustain-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ephemeral{
+    position: relative;
+   min-height: 40vw;
+    width: 30vw;
+ 
+}
+#ephemeral p{
+    position: absolute;
+    font-size: 1.4vw;
+    
+    width: 40%;
+    text-align: center;
+    /* top: 103%; */
+}
+#ephemeral h1{
+    font-size: 6vw;
+    font-weight: 200;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+#ephemeral  #imgntext{
+   width: fit-content;
+   height: fit-content;
+   background-color: rgb(24, 18, 18);
+}
+#ephemeral #headings{
+    position: absolute;
+    top: -22%;
+    left: -20%;
+}
+#text{
+    height: 10vw;
+    width: 100%;
+    
+}
+#ephemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#visit{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#criclev{
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadaaa;
+    border-radius: 50%;
+    
+}
+#criclev i{
+    color: #dadaaa;
+}
+#visit h3{
+    color: #dadaaa;
+    font-weight: 300;
+}
+
+#motiv{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#motiv p{
+    font-weight: 800;
+    width: 78%;
+   
+    text-align: right;
+    font-size: 1.4vw;
+    right: 0;
+    position: relative;
+    line-height: 2.3;
+    
+}
+#motiv span{
+    display: inline-block;
+   
+    margin: 0 10px;
+    border-radius: 190px;
+    
+    margin-bottom: -11.5px;
+}
+#onespan{
+    width: 60px;
+    height: 30px;
+    background-image: url(/bluegirl.jpg);
+    background-position: 0% 60%;
+    background-size: cover;
+}
+#twospan{
+    width: 80px;
+    height: 30px;
+    background-image: url(/shaljam.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+}
+#threespan{
+    width: 60px;
+    height: 30px;
+    background-image: url(/grass.jpg);
+    background-position: 0% 60%;
+    background-size: cover;
+}
+
+#pictures{
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#firstpic{
+    width: 17vw;
+}
+#firstpic h1{
+    font-size: 2vw;
+    font-weight: 100;
+    letter-spacing: -.1vw;
+}
+#firstpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+}
+#firstpic #picimg{
+    height: 25vw;
+    width: 100%;
+   
+    margin-bottom:2vw ;
+}
+#picimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#secondpic{
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+
+#secondpic #picimg-sec{
+    height: 35vw;
+    width: 100%;
+  
+    margin-bottom:2vw ;
+
+}
+#secondpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+}
+#secondpic h1{
+    font-size: 2vw;
+    font-weight: 100;
+    letter-spacing: -.1vw;
+}
+#picimg-sec img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+#bimg{
+    height: 60vh;
+    width: 65%;
+   
+}
+
+#bimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:  0% 70%;
+}
+#btext{
+    padding: 0 3vw;
+    width: 35%;
+}
+#btext h1{
+    font-size: 2.4vw;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -.1vw;
+}
+#btext p{
+    margin-top: 17px;
+    width: 80%;
+    font-size: 1vw;
+}
+
+#future{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#future video{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+}
+#ftext button{
+    padding: .8vw  1.7vw;
+    font-size: .7vw;
+    letter-spacing: -.05vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #5e5e5e;
+    color: #5e5e5e;
+}
+
+
+
+@media (max-width:650px) {
+
+
+
+    #main{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #nav{
+        cursor: pointer;
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 2vw 1vw;
+        font-size: 4.2vw;
+        width: 100%;
+        position: relative;
+    }
+    #nav a{
+        display: inline-block;
+        
+        text-decoration: none;
+        color: rgb(13, 13, 13);
+    }
+    
+    .nav-left a{
+        display: inline-block;
+        padding-right: 25px;
+        
+    }
+    #hero{
+        margin: 3vw 4vw;
+        align-items: center;
+        width: 100%;
+       position: relative;
+        margin-top: 5vw;
+        padding:  0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+    #sustain{
+        width: 100vw;
+    }
+    #sustain p{
+        font-size: 14px;
+        font-weight: 300;
+        opacity: .7;
+        position: relative;
+        text-transform: capitalize;
+        margin: 10px 0;
+        width: 50%;
+    }
+    #sustain #sustain-img{
+        position: relative;
+        height: 35vw;
+        
+        width: 30%;
+        height: 100%;
+        
+    }
+    #sustain-img img{
+        height: 100%;
+        width: 100%;
+        
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #ephemeral{
+        position: relative;
+       min-height: 40vw;
+        width: 50vw;
+     
+    }
+    #ephemeral p{
+        position: absolute;
+        font-size: 3.4vw;
+        margin-left: 20vw;
+        width: 100%;
+        text-align: center;
+        /* top: 103%; */
+    }
+    #ephemeral h1{
+        /* margin-left: -10vw; */
+        font-size: 8vw;
+        font-weight: 200;
+        letter-spacing: -.4vw;
+        line-height: 1;
+    }
+    #ephemeral  #imgntext{
+       
+       width: fit-content;
+       height: fit-content;
+       background-color: rgb(24, 18, 18);
+    }
+    #ephemeral #headings{
+        margin-left: 20vw;
+        width: 100%;
+        position: absolute;
+        top: -22%;
+        left: -20%;
+    }
+    #text{
+        height: 10vw;
+        width: 100%;
+        
+    }
+    #ephemeral img{
+        margin-left: 20vw;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #visit{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    #criclev{
+        height: 3vw;
+        width: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #dadaaa;
+        border-radius: 50%;
+        
+    }
+    #criclev i{
+        color: #dadaaa;
+        font-size: 5vw;
+        
+    }
+    #visit h3{
+        color: #dadaaa;
+        font-weight: 300;
+        font-size: 8vw;
+        margin-right: 10vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #motiv{
+        padding: 3vw 10vw;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        flex-direction: column;
+    }
+    #motiv p{
+        font-weight: 800;
+        width: 100%;
+       margin-top: 3vw;
+        text-align: left;
+        font-size: 3.4vw;
+        left: 0;
+        position: relative;
+        line-height: 2.3;
+        
+    }
+    #motiv span{
+        display: inline-block;
+       
+        margin: 1px 5px;
+        border-radius: 190px;
+        
+        margin-bottom: -9.5px;
+    }
+    #motiv h3{
+        font-size: 6vw;
+    }
+    #onespan{
+        width: 35px;
+        height: 20px;
+        background-image: url(/bluegirl.jpg);
+        background-position: 0% 60%;
+        background-size: cover;
+    }
+    #twospan{
+        width: 35px;
+        height: 20px;
+        background-image: url(/shaljam.jpg);
+        background-position: 0% 50%;
+        background-size: cover;
+    }
+    #threespan{
+        width: 35px;
+        height: 20px;
+        background-image: url(/grass.jpg);
+        background-position: 0% 60%;
+        background-size: cover;
+    }
+    
+    #pictures{
+        padding: 3vw;
+        /* padding-left: 14vw;
+        padding-right: 12vw; */
+        margin-top: 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    #firstpic{
+        
+        width: 70vw;
+    }
+    #firstpic h1{
+        font-size: 6vw;
+        font-weight: 399;
+        letter-spacing: -.1vw;
+    }
+    #firstpic p{
+        margin-bottom: 5vw;
+        font-size: 4vw;
+        margin-top: 10px;
+        width: 100%;
+        opacity: .8;
+    }
+    #firstpic #picimg{
+        height: 60vw;
+        width: 90vw;
+        border-radius: 100px;
+        margin-bottom:2vw ;
+    }
+    #picimg img{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 10px 20px 50px rgb(242, 96, 120);
+    }
+    
+    
+    #secondpic{
+        width: 90vw;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    
+    }
+    
+    
+    #secondpic #picimg-sec{
+        height: 60vw;
+        width: 100%;
+        box-shadow: 10px 20px 50px rgb(209, 157, 166);
+       background-color: red;
+        margin-bottom:2vw ;
+    
+    }
+    #secondpic p{
+        font-size: 19px;
+        margin-top: 10px;
+        opacity: .8;
+    }
+    #secondpic h1{
+        font-size: 5vw;
+        font-weight: 100;
+        letter-spacing: -.1vw;
+    }
+    #picimg-sec img{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 10px 20px 50px rgb(209, 157, 166);
+    }
+
+
+
+
+
+
+
+
+
+
+    #banner{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8vw;
+        margin-left: 20vw;
+        flex-direction: column;
+    }
+    
+    #bimg{
+        height: 34vh;
+        width: 100%;
+        margin-left: -31vw;
+    }
+    
+    #bimg img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position:  0% 70%;
+    }
+    #btext{
+        padding: 0 3vw;
+        width: 50%;
+    }
+    #btext h1{
+        font-size: 7.4vw;
+        font-weight: 400;
+        line-height: 1;
+        margin-left: -39vw;
+        letter-spacing: -.1vw;
+    }
+    #btext p{
+        margin-top: 20px;
+        width: 100%;
+        
+        font-size: 4vw;
+    }
+
+
+
+
+
+
+    #future{
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    
+    #future video{
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) ;
+    
+    }
+    #ftext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 99;
+        background-color: #fff;
+        padding: 1vw 2vw;
+        border-radius: 10px;
+    }
+    #ftext h1{
+        font-size: 4vw;
+        color: purple;
+    }
+    #ftext button{
+        padding: .8vw  1.7vw;
+        font-size: 2.6vw;
+        letter-spacing: -.05vw;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 10px;
+        border-radius: 100px;
+        background-color: #fff;
+        border: 1px solid #5e5e5e;
+        color: #5e5e5e;
+    }
+ 
+    
+}
